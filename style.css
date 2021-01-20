@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "CODA Caption", sans-serif;
+}
+
+body {
+  background: linear-gradient(to left, #e91e63, blue);
+}
+
+#calculator {
+  position: absolute;
+  margin-left: 50%;
+  margin-top: 50px;
+  left: -155px;
+  width: 310px;
+  background-color: grey;
+  border: 10px solid grey;
+}
+
+#title {
+  font-size: 30px;
+  border: 10px solid maroon;
+  background-color: maroon;
+  color: white;
+}
+
+.button {
+  width: 50px;
+  font-size: 30px;
+  margin: 3px;
+  cursor: pointer;
+}
+
+.display {
+  width: 287px;
+  height: 50px;
+  font-size: 25px;
+}
